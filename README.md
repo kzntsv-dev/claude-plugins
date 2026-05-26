@@ -33,7 +33,9 @@ Install:
 /plugin install yt-tools@opeitcloc03-claude-plugins
 ```
 
-The plugin's `SessionStart` hook auto-runs `pipx install yt-tools` and probes
+The plugin's `SessionStart` hook auto-runs
+`pipx install --force "$CLAUDE_PLUGIN_ROOT[full]"` (from the plugin's local
+clone, with fallback to core if `[full]` extras fetch fails) and probes
 `ffmpeg` on first session after install. External `ffmpeg` binary required —
 the plugin will guide you through per-OS install if missing.
 
