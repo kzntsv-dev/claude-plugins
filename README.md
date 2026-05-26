@@ -1,0 +1,48 @@
+# OpeItcLoc03 Claude Code Plugins
+
+A marketplace catalog of Claude Code plugins by
+[Victor Kuznetsov](https://github.com/OpeItcLoc03).
+
+## Adding this marketplace
+
+Run once per machine in Claude Code:
+
+```
+/plugin marketplace add OpeItcLoc03/claude-plugins
+```
+
+After that, individual plugins can be installed by name:
+
+```
+/plugin install <plugin-name>@opeitcloc03-claude-plugins
+```
+
+## Available plugins
+
+### [yt-tools](https://github.com/OpeItcLoc03/yt-tools)
+
+CLI suite for iterative agent-driven YouTube watching: clean-markdown
+transcripts with `[mm:ss]` anchors, targeted frame extraction, and FFT audio
+analysis (BPM, key, chord progression, spectral statistics). Bundles the
+`using-yt-tools` skill that orchestrates three primary flows (iterative watch
+/ targeted frames / audio analysis).
+
+Install:
+
+```
+/plugin install yt-tools@opeitcloc03-claude-plugins
+```
+
+The plugin's `SessionStart` hook auto-runs `pipx install yt-tools` and probes
+`ffmpeg` on first session after install. External `ffmpeg` binary required —
+the plugin will guide you through per-OS install if missing.
+
+## Contributing
+
+This marketplace serves plugins authored by `@OpeItcLoc03`. Bug reports and
+plugin-specific issues should be filed in the individual plugin repositories.
+
+## License
+
+Each plugin is independently licensed (see its repository). The
+`marketplace.json` catalog itself is MIT — see [LICENSE](LICENSE).
