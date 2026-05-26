@@ -12,7 +12,7 @@
         "url": "https://github.com/OpeItcLoc03/yt-tools.git"
       },
       "description": "YouTube transcript / frames / audio FFT analysis for iterative agent workflows",
-      "version": "0.3.1"
+      "version": "0.3.2"
     }
   ]
 }
