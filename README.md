@@ -1,14 +1,14 @@
-# OpeItcLoc03 Claude Code Plugins
+# kzntsv-dev Claude Code Plugins
 
 A marketplace catalog of Claude Code plugins by
-[Victor Kuznetsov](https://github.com/OpeItcLoc03).
+[Victor Kuznetsov](https://github.com/kzntsv-dev).
 
 ## Adding this marketplace
 
 Run once per machine in Claude Code:
 
 ```
-/plugin marketplace add OpeItcLoc03/claude-plugins
+/plugin marketplace add kzntsv-dev/claude-plugins
 ```
 
 After that, individual plugins can be installed by name:
@@ -19,7 +19,7 @@ After that, individual plugins can be installed by name:
 
 ## Available plugins
 
-### [yt-tools](https://github.com/OpeItcLoc03/yt-tools)
+### [yt-tools](https://github.com/kzntsv-dev/yt-tools)
 
 CLI suite for iterative agent-driven YouTube watching: clean-markdown
 transcripts with `[mm:ss]` anchors, targeted frame extraction, and FFT audio
@@ -41,7 +41,7 @@ the plugin will guide you through per-OS install if missing.
 
 ## Contributing
 
-This marketplace serves plugins authored by `@OpeItcLoc03`. Bug reports and
+This marketplace serves plugins authored by `@kzntsv-dev`. Bug reports and
 plugin-specific issues should be filed in the individual plugin repositories.
 
 ## License
