@@ -14,7 +14,7 @@ Run once per machine in Claude Code:
 After that, individual plugins can be installed by name:
 
 ```
-/plugin install <plugin-name>@opeitcloc03-claude-plugins
+/plugin install <plugin-name>@kzntsv-dev-claude-plugins
 ```
 
 ## Available plugins
@@ -30,7 +30,7 @@ analysis (BPM, key, chord progression, spectral statistics). Bundles the
 Install:
 
 ```
-/plugin install yt-tools@opeitcloc03-claude-plugins
+/plugin install yt-tools@kzntsv-dev-claude-plugins
 ```
 
 The plugin's `SessionStart` hook auto-runs

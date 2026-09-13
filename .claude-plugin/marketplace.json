@@ -1,18 +1,18 @@
 {
-  "name": "opeitcloc03-claude-plugins",
+  "name": "kzntsv-dev-claude-plugins",
   "owner": {
     "name": "Victor Kuznetsov",
-    "url": "https://github.com/OpeItcLoc03"
+    "url": "https://github.com/kzntsv-dev"
   },
   "plugins": [
     {
       "name": "yt-tools",
       "source": {
         "source": "url",
-        "url": "https://github.com/OpeItcLoc03/yt-tools.git"
+        "url": "https://github.com/kzntsv-dev/yt-tools.git"
       },
       "description": "YouTube transcript / frames / audio FFT analysis for iterative agent workflows",
-      "version": "0.3.2"
+      "version": "0.24.0"
     }
   ]
 }
